@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <h1>My Portfolio</h1>
+      <div class="profile-picture">
+        <img src="images/raj.jpeg" alt="Your Profile Picture" />
+      </div>
+      <nav>
+        <ul role="menubar">
+          <li><a href="#about" role="menuitem">About</a></li>
+          <li><a href="#projects" role="menuitem">Projects</a></li>
+          <li><a href="#contact" role="menuitem">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- social-icon  -->
+      <div class="social-icons" aria-label="Social Media Links">
+        <a
+          href="https://www.linkedin.com/feed/"
+          role="link"
+          aria-label="LinkedIn Profile"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/Sachida123"
+          role="link"
+          aria-label="GitHub Profile"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Sachidanand, a passionate web developer with a keen interest in
+        creating dynamic and user-friendly websites. I have a strong foundation
+        in front-end technologies such as HTML, CSS, and JavaScript, as well as
+        experience with back-end development using frameworks like Node.js and
+        databases like MongoDB. I'm dedicated to continuously learning and
+        improving my skills to stay up-to-date with the latest trends and
+        technologies in the web development field.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Todo-app</h3>
+        <p>
+          ToDo is a simple and intuitive ToDo list application designed to help
+          users organize their tasks efficiently. With an easy-to-use interface
+          and essential features, MyToDo simplifies task management and boosts
+          productivity.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Railway Reservation Website</h3>
+        <p>
+          Developed a railway registration application using PHP and MySQL to
+          streamline the registration process for passengers. Implemented user
+          authentication, data validation, and database management Technologies
+          used: PHP, MySQL, HTML, CSS, JavaScript. Successfully deployed the app
+          on a local server for testing and debugging. Overcome challenges in
+          optimizing database queries for improved performance
+        </p>
+      </div>
+      <div class="project">
+        <h3>Car Rental Website</h3>
+        <p>
+          Developed a fully functional car rental website from scratch using PHP
+          and MySQL. using Bootstrap and CSS for styling the page. Design
+          responsive website for optimal user experience across devices.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p>Email: ramchaudhary7754@gmail.com</p>
+        <p>Phone: 9120921288</p>
+      </div>
+      <form id="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            aria-required="true"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            aria-required="true"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            aria-required="true"
+          ></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
